@@ -35,11 +35,11 @@ console.log(`${booleano}`.magenta);
 console.log(Math.sqrt(9));
 console.log(Math.sqrt(1369));
 
-console.log(Math.random()*(10)); // sin redondear
-console.log(Math.round(Math.random()*(10))); // redondeo
+console.log(Math.random()*(10)); // without round
+console.log(Math.round(Math.random()*(10))); // round
 
-console.log((Math.random()*(10)).toString().blue); // sin redondear
-console.log(Math.round(Math.random()*(10)).toString().magenta); // redondeo
+console.log((Math.random()*(10)).toString().blue); // without round
+console.log(Math.round(Math.random()*(10)).toString().magenta); // round
 
 
 let num = 4.7;
